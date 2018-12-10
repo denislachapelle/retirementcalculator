@@ -225,7 +225,7 @@ rp=rp+20
 IntLine=OneLine(LabelText="Interest Rate", RowPos=rp, InitialVal=0.065, Parent=MainFrame)
 
 
-bt1=QPushButton("test", MainFrame)
+bt1=QPushButton("Compute", MainFrame)
 bt1.clicked.connect(ExecuteAll)
 bt1.move(20, 300)
 
